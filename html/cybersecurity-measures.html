@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Measures - Protection Guide</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">🛡️ CYBER GUARD</div>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="what-is-cyber-crime.html">What is Cyber Crime?</a>
+                    <a href="types-of-cyber-crimes.html">Types</a>
+                    <a href="cybersecurity-measures.html">Security</a>
+                    <a href="legal-aspects.html">Legal</a>
+                    <a href="real-world-cases.html">Cases</a>
+                    <a href="conclusion.html">Conclusion</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="glass-card">
+                <h1>🛡️ CYBERSECURITY MEASURES 🛡️</h1>
+                <div style="text-align: center; margin: 2rem 0;">
+                    <div style="font-size: 4rem; margin: 1rem 0;">🔐</div>
+                    <p style="font-size: 1.2rem; color: var(--text-secondary);">
+                        Essential strategies to protect yourself in the digital world
+                    </p>
+                </div>
+            </div>
+
+            <!-- Password Security -->
+            <div class="glass-card">
+                <h2>🔑 PASSWORD SECURITY BEST PRACTICES</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>Strong Password Guidelines:</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">✅ <strong>Length:</strong> Minimum 12 characters</li>
+                            <li style="margin: 0.5rem 0;">✅ <strong>Complexity:</strong> Mix of letters, numbers, symbols</li>
+                            <li style="margin: 0.5rem 0;">✅ <strong>Uniqueness:</strong> Different for each account</li>
+                            <li style="margin: 0.5rem 0;">✅ <strong>Avoid:</strong> Personal information, common words</li>
+                        </ul>
+                        
+                        <h3>Password Manager Benefits:</h3>
+                        <p>
+                            Password managers generate and store complex passwords securely, 
+                            eliminating the need to remember multiple passwords while ensuring 
+                            each account has a unique, strong password.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="interactive-demo">
+                            <h3>🔍 PASSWORD STRENGTH CHECKER</h3>
+                            <p>Test your password strength:</p>
+                            <input type="password" id="passwordInput" class="demo-input" placeholder="Enter password to test" style="width: 100%; max-width: 300px;">
+                            <button onclick="checkPasswordStrength()" class="cyber-button">Check Strength</button>
+                            <div id="passwordResult" class="demo-result" style="margin-top: 1rem;">
+                                Enter a password to see its strength
+                            </div>
+                        </div>
+                        
+                        <div class="warning-box">
+                            <h3>⚠️ COMMON PASSWORD MISTAKES:</h3>
+                            <ul>
+                                <li>Using "password123" or similar variations</li>
+                                <li>Reusing passwords across multiple accounts</li>
+                                <li>Including personal information (birthdays, names)</li>
+                                <li>Using keyboard patterns ("qwerty", "123456")</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Two-Factor Authentication -->
+            <div class="glass-card">
+                <h2>🔐 TWO-FACTOR AUTHENTICATION (2FA)</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>What is 2FA?</h3>
+                        <p>
+                            Two-factor authentication adds an extra layer of security by requiring two 
+                            different types of verification: something you know (password) and something 
+                            you have (phone, token, or biometric).
+                        </p>
+                        
+                        <h3>Types of 2FA:</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">📱 <strong>SMS Codes:</strong> Text messages with verification codes</li>
+                            <li style="margin: 0.5rem 0;">🔑 <strong>Authenticator Apps:</strong> Google Authenticator, Authy</li>
+                            <li style="margin: 0.5rem 0;">🔐 <strong>Hardware Tokens:</strong> Physical security keys</li>
+                            <li style="margin: 0.5rem 0;">👆 <strong>Biometrics:</strong> Fingerprint or facial recognition</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="success-box">
+                            <h3>✅ WHY ENABLE 2FA?</h3>
+                            <ul>
+                                <li>Blocks 99.9% of automated attacks</li>
+                                <li>Protects even if password is compromised</li>
+                                <li>Required by most financial institutions</li>
+                                <li>Free and easy to set up</li>
+                            </ul>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-label">Reduction in account compromise with 2FA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Safe Browsing Habits -->
+            <div class="glass-card">
+                <h2>🌐 SAFE BROWSING HABITS</h2>
+                <div class="grid grid-3">
+                    <div>
+                        <h3>🔍 Check Website Security</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">✅ Look for HTTPS in URL</li>
+                            <li style="margin: 0.5rem 0;">✅ Check for padlock icon</li>
+                            <li style="margin: 0.5rem 0;">✅ Verify domain spelling</li>
+                            <li style="margin: 0.5rem 0;">✅ Research unfamiliar sites</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>📥 Download Safety</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">✅ Download from official sources</li>
+                            <li style="margin: 0.5rem 0;">✅ Scan files with antivirus</li>
+                            <li style="margin: 0.5rem 0;">✅ Check file extensions</li>
+                            <li style="margin: 0.5rem 0;">✅ Read user reviews</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>🛡️ Privacy Protection</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">✅ Use private browsing mode</li>
+                            <li style="margin: 0.5rem 0;">✅ Clear cookies regularly</li>
+                            <li style="margin: 0.5rem 0;">✅ Use VPN on public WiFi</li>
+                            <li style="margin: 0.5rem 0;">✅ Limit personal info sharing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Antivirus and Firewall -->
+            <div class="glass-card">
+                <h2>🛡️ ANTIVIRUS & FIREWALL PROTECTION</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>Antivirus Software Features:</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">🦠 <strong>Real-time Scanning:</strong> Continuous monitoring</li>
+                            <li style="margin: 0.5rem 0;">🔄 <strong>Automatic Updates:</strong> Latest threat definitions</li>
+                            <li style="margin: 0.5rem 0;">🔍 <strong>Deep Scanning:</strong> Comprehensive system checks</li>
+                            <li style="margin: 0.5rem 0;">🚫 <strong>Quarantine:</strong> Isolating suspicious files</li>
+                        </ul>
+                        
+                        <h3>Firewall Protection:</h3>
+                        <p>
+                            Firewalls act as a barrier between your device and the internet, 
+                            monitoring and controlling incoming and outgoing network traffic.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="interactive-demo">
+                            <h3>🔄 SECURITY UPDATE CHECKER</h3>
+                            <p>Check if your system is up to date:</p>
+                            <button onclick="checkSystemStatus()" class="cyber-button">Check System Status</button>
+                            <div id="systemStatus" class="demo-result" style="margin-top: 1rem;">
+                                Click to check your system security status
+                            </div>
+                        </div>
+                        
+                        <div class="success-box">
+                            <h3>✅ RECOMMENDED SECURITY SOFTWARE:</h3>
+                            <ul>
+                                <li><strong>Antivirus:</strong> Bitdefender, Norton, Windows Defender</li>
+                                <li><strong>Firewall:</strong> Built-in OS firewall, ZoneAlarm</li>
+                                <li><strong>Anti-malware:</strong> Malwarebytes, HitmanPro</li>
+                                <li><strong>VPN:</strong> NordVPN, ExpressVPN, ProtonVPN</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Protection -->
+            <div class="glass-card">
+                <h2>💾 DATA PROTECTION TECHNIQUES</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>Backup Strategies:</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">💿 <strong>3-2-1 Rule:</strong> 3 copies, 2 different media, 1 offsite</li>
+                            <li style="margin: 0.5rem 0;">🔄 <strong>Automated Backups:</strong> Regular scheduled backups</li>
+                            <li style="margin: 0.5rem 0;">☁️ <strong>Cloud Storage:</strong> Encrypted cloud backup services</li>
+                            <li style="margin: 0.5rem 0;">🔐 <strong>Encryption:</strong> Protect sensitive data</li>
+                        </ul>
+                        
+                        <h3>Device Security:</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;">📱 <strong>Screen Locks:</strong> PIN, pattern, biometric</li>
+                            <li style="margin: 0.5rem 0;">🔍 <strong>Remote Wipe:</strong> Ability to erase lost devices</li>
+                            <li style="margin: 0.5rem 0;">🔄 <strong>Regular Updates:</strong> Keep software current</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="interactive-demo">
+                            <h3>📝 PERSONAL SECURITY CHECKLIST</h3>
+                            <p>Complete this security checklist:</p>
+                            <div style="text-align: left; max-width: 300px; margin: 0 auto;">
+                                <label style="display: block; margin: 0.5rem 0;">
+                                    <input type="checkbox" onchange="updateSecurityScore()"> Strong passwords enabled
+                                </label>
+                                <label style="display: block; margin: 0.5rem 0;">
+                                    <input type="checkbox" onchange="updateSecurityScore()"> 2FA activated
+                                </label>
+                                <label style="display: block; margin: 0.5rem 0;">
+                                    <input type="checkbox" onchange="updateSecurityScore()"> Antivirus installed
+                                </label>
+                                <label style="display: block; margin: 0.5rem 0;">
+                                    <input type="checkbox" onchange="updateSecurityScore()"> Regular backups
+                                </label>
+                                <label style="display: block; margin: 0.5rem 0;">
+                                    <input type="checkbox" onchange="updateSecurityScore()"> Software updated
+                                </label>
+                            </div>
+                            <div id="securityScore" class="demo-result" style="margin-top: 1rem;">
+                                Complete the checklist to see your security score
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="success-box">
+                <h3>🎯 QUICK SECURITY WINS</h3>
+                <div class="grid grid-3">
+                    <div>
+                        <h4>⚡ Immediate Actions</h4>
+                        <ul>
+                            <li>Enable 2FA on email</li>
+                            <li>Update your browser</li>
+                            <li>Review app permissions</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>📅 This Week</h4>
+                        <ul>
+                            <li>Change old passwords</li>
+                            <li>Backup important files</li>
+                            <li>Update phone OS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>📆 This Month</h4>
+                        <ul>
+                            <li>Review privacy settings</li>
+                            <li>Clean up unused accounts</li>
+                            <li>Educate family members</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="nav-buttons">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="types-of-cyber-crimes.html" class="cyber-button">
+                ← PREVIOUS: Types of Cyber Crimes
+            </a>
+            <a href="legal-aspects.html" class="cyber-button">
+                NEXT: Legal Aspects & Reporting →
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <p>&copy; 2024 Cyber Crime Awareness Project</p>
+                    <p style="color: var(--text-secondary);">Educational Resource for Cyber Security</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="what-is-cyber-crime.html">Learn More</a>
+                    <a href="cybersecurity-measures.html">Stay Safe</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
